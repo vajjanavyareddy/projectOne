@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <main>
+        <fieldset>
+            <legend style="font-size: 25px;">Personal Information</legend>
+            <br/>
+            <label for="name1">Full Name : </label>
+            <input type="text" name="name" id="name1" placeholder="abcd...">
+            <br/>
+            <br/>
+            <label for="contactno">Contact Number : </label>
+            <input type="tel" name="contactno" id="contactno" placeholder="+91...">
+            <br/>
+            <br/>
+            <label for="otp">Enter OTP : </label>
+            <input type="text" name="otp" id="otp" placeholder="123456" maxlength="6">
+            <br/>
+            <br/>
+            <label for="email">Email Address : </label>
+            <input type="text" name="email" id="email" placeholder="example@gmail.com">
+            <h3>Address :</h3>
+            <ul>
+    
+                <li>
+                    <label for="village">Village/Town/City : </label>
+                    <input type="text" name="village" id="village" >
+                </li>
+                <br/>
+                <li>
+                    <label for="district">District : </label>
+                    <input type="text" name="district" id="district" >
+                </li>
+                <br/>
+                <li>
+                    <label for="state">State : </label>
+                    <input type="text" name="state" id="state" >
+                </li>
+                <br/>
+                <li>
+                    <label for="code">Postal Code : </label>
+                    <input type="tel" name="code" id="code" >
+                </li>
+                <br/>
+            </ul>
+            <h3>Preffered Language for Communication</h3>
+            <input type="checkbox" id="english">
+            <label for="english">English</label>
+            <br/>
+            <input type="checkbox" id="hindi">
+            <label for="hindi">Hindi</label>
+            <br/>
+            <input type="checkbox" id="telugu">
+            <label for="telugu">Telugu</label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend style="font-size: 25px;">Land and Soil Information</legend>
+            <ol>
+                <li>
+                    <label for="acres" >Land Area (in acres or hectares)</label>
+                    <input type="text" name="acres"  id="acres">
+                </li>
+                <li>
+                    <h3>Location of the Land</h3>
+                    <ul>
+    
+                        <li>
+                            <label for="village">Village/Town/City : </label>
+                            <input type="text" name="village" id="village" >
+                        </li>
+                        <br/>
+                        <li>
+                            <label for="district">District : </label>
+                            <input type="text" name="district" id="district" >
+                        </li>
+                        <br/>
+                        <li>
+                            <label for="state">State : </label>
+                            <input type="text" name="state" id="state" >
+                        </li>
+                        <br/>
+                        <li>
+                            <label for="code">Postal Code : </label>
+                            <input type="tel" name="code" id="code" >
+                        </li>
+                        <br/>
+                    </ul>
+                </li>
+                <li>
+                    <h3>Soil Type</h3>
+                    
+                            <input type="radio" name="radio" id="sandy">
+                            <label for="sandy">Sandy</label>
+                            <br/>
+                            <input type="radio" name="radio" id="loamy">
+                            <label for="loamy">Loamy</label>
+                            <br/>
+                            <input type="radio" name="radio" id="rocky">
+                            <label for="rocky">Rocky</label>
+                    
+                </li>
+                <li>
+                    <h3>Soil Test Information</h3>
+                    <ul>
+                        <li>
+                            <h4>Test Type:</h4>
+                            <input type="radio" name="radio" id="govt">
+                            <label for="govt">Government Soil Test</label>
+                            <input type="radio" name="radio" id="pvt">
+                            <label for="pvt">Private Soil Test</label>
+                        </li>
+                        <li>
+                            <h4>Soil Test Report Upload :</h4>
+                            <label for="file">Upload your File:</label>
+                            <input type="file" name="file" id="file">
+                        </li>
+                        
+                    </ul>
+                </li>
+            </ol>
+            
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <legend style="font-size: 25px";>Crop Registration Information</legend>
+            <ol>
+                <li>
+                    <h3>Current Season</h3>
+                    <input type="radio" name="radio" id="kharif">
+                    <label for="kharif">Kharif</label>
+                    <br/>
+                    <input type="radio" name="radio" id="rabi">
+                     <label for="rabi">Rabi</label>
+                    <br/>
+                    <input type="radio" name="radio" id="zaid">
+                    <label for="zaid">Zaid</label>
+                </li>
+                <li>
+                        <h3>Water Sources</h3>
+                        <input type="radio" name="radio" id="rained">
+                    <label for="rained">Rained</label>
+                    <br/>
+                    <input type="radio" name="radio" id="irrigation">
+                     <label for="irrigation">Irrigation(Borewell,Canal etc)</label>
+                    <br/>
+                    <input type="radio" name="radio" id="both">
+                    <label for="both">Both</label>
+                </li>
+                
+            </ol>
+        </fieldset>
+        <br/>
+
+        <fieldset>
+            <legend style="font-size: 25px;">Government Schemes</legend>
+            <h3>Interested in Government Schemes?</h3>
+            <input type="radio" name="radio" id="radio">
+                     <label for="radio">Yes</label>
+                     <input type="radio" name="radio" id="radio">
+                     <label for="radio">No</label>
+        </fieldset>
+        <br/>
+        <fieldset>
+            <legend style="font-size: 25px;">Consent and Agreements</legend>
+            <ol>
+                <li>
+                    <h3>Agree to Receive Timely Agricultural Updates</h3>
+                    <input type="radio" name="radio" id="radio">
+                     <label for="radio">Yes</label>
+                     <input type="radio" name="radio" id="radio">
+                     <label for="radio">No</label>
+                </li>
+                <li>
+                    <h3>Prefered Method of Communication</h3>
+                    <input type="radio" name="radio" id="radio">
+                     <label for="radio">Watsupp</label>
+                     <br/>
+                     <input type="radio" name="radio" id="radio">
+                     <label for="radio">Messenger</label>
+                     <br/>
+                     <input type="radio" name="radio" id="radio">
+                     <label for="radio">SMS</label>
+                     <br/>
+                     <input type="radio" name="radio" id="radio">
+                     <label for="radio">Voice Clips</label>
+                     <br/>
+                     <input type="radio" name="radio" id="radio">
+                     <label for="radio">Call</label>
+                </li>
+                
+            </ol>
+        </fieldset>
+        <br/>
+        <input type="checkbox" id="agree">
+                     <label for="agree">Agree to Terms and Conditions</label>
+                     <br/>
+                     <br/>
+        <button value="Sumbit">Sumbit</button>
+    </main>
+</body>
+</html>
